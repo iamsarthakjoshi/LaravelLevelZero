@@ -16,6 +16,7 @@ Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 
+//resource creates all necessary routes for post actions automatically
 Route::resource('posts', 'PostsController');
 
 /* 
